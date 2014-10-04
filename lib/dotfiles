@@ -1,7 +1,7 @@
 #!/bin/bash
 
-declare -r DOTFILES_ARCHIVE_URL="https://github.com/alrra/dotfiles/tarball/master"
-declare -r DOTFILES_GIT_REMOTE="git@github.com:alrra/dotfiles.git"
+declare -r DOTFILES_ARCHIVE_URL="https://github.com/mintbridge/dotfiles/tarball/master"
+declare -r DOTFILES_GIT_REMOTE="git@github.com:mintbridge/dotfiles.git"
 
 declare -a FILES_TO_COPY=(
     "git/gitconfig"
@@ -36,7 +36,7 @@ declare -a NPM_PACKAGES=(
     "jshint"
 )
 
-declare dotfiles_directory="$HOME/projects/dotfiles"
+declare dotfiles_directory="$HOME/.config/dotfiles"
 declare force=1    # values: `0` (true) or `1` (false)
 declare os=""
 declare process="" # values: `setup` or `update`
