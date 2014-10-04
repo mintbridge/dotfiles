@@ -324,6 +324,9 @@ install_apps() {
         printf "\n"
         install_npm_packages
 
+        printf "\n"
+        install_php_packages
+
     fi
 }
 
@@ -336,6 +339,18 @@ install_npm_packages() {
     for i in ${NPM_PACKAGES[@]}; do
         execute "sudo npm install -g $i" "$i"
     done
+}
+
+install_php_packages() {
+
+    # install composer if not already
+    if [ -f "$HOME/bin/composer" ]; then
+        curl -sS https://getcomposer.org/installer | php -- --install-dir="$HOME/bin"
+        mv "$HOME/bin/composer.phar" "$HOME/bin/composer"
+        print_result $? "composer [install]"
+    fi
+    # make sure composer is upto date
+    execute "$HOME/bin/composer self-update"
 }
 
 is_git_repository() {
