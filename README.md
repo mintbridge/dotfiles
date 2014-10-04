@@ -48,6 +48,7 @@ The snippet will:
 | [Opera Developer](http://www.opera.com/developer) | ✔ | ― |
 | [Opera Next](http://www.opera.com/next) | ✔ | ✔ |
 | [SQLite](http://www.sqlite.org/) | ✔ | ✔ |
+| [Sublime Text 3](http://www.sublimetext.com/) | ✔ | ✔ |
 | [Terminator](http://gnometerminator.blogspot.co.uk/p/introduction.html) | ✖ | ✔ |
 | [Transmission](http://www.transmissionbt.com/) | ✔ | ✔ |
 | vim-gnome | ― | ✔ |

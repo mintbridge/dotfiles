@@ -28,6 +28,7 @@ declare -a APT_PACKAGES=(
     "opera"
     "opera-next"
     "sqlite3"
+    "sublime-text-installer"
     "terminator"
     "transmission"
     "vim-gnome"
@@ -112,6 +113,10 @@ install_applications() {
         && add_source_list \
                 "http://deb.opera.com/opera/ stable non-free" \
                 "opera.list"
+
+    # Sublime Text 3
+    [ $(cmd_exists "subl") -eq 1 ] \
+        && add_ppa "webupd8team/sublime-text-3"
 
     update_and_upgrade
 

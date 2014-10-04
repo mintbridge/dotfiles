@@ -48,6 +48,7 @@ set_ui_and_ux_settings() {
         'firefox-trunk.desktop',
         'opera-browser.desktop',
         'opera-next-browser.desktop',
+        'sublime-text.desktop',
         'terminator.desktop'
     ]"
 
