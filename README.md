@@ -6,13 +6,13 @@ To setup the dotfiles, run the following snippet in the terminal.
 
 | OS | Snippet |
 |:---:|:---|
-| OS X | `bash -c "$(curl -LsS https://raw.github.com/alrra/dotfiles/master/lib/dotfiles)"` |
-| Ubuntu | `bash -c "$(wget -qO - https://raw.github.com/alrra/dotfiles/master/lib/dotfiles)"` |
+| OS X | `bash -c "$(curl -LsS https://raw.github.com/mintbridge/dotfiles/master/lib/dotfiles)"` |
+| Ubuntu | `bash -c "$(wget -qO - https://raw.github.com/mintbridge/dotfiles/master/lib/dotfiles)"` |
 
 The snippet will:
 
 * Download the dotfiles on your computer (by default it will suggest `~/projects/dotfiles`)
-* Create additional [directories](https://github.com/alrra/dotfiles/blob/29bdcbc72260321013d89654283000666052be83/lib/dotfiles.sh#L29-L34)
+* Create additional [directories](https://github.com/mintbridge/dotfiles/blob/29bdcbc72260321013d89654283000666052be83/lib/dotfiles.sh#L29-L34)
 * Copy/symlink the [git](git), [shell](shell), and [vim](vim) files
 * Set custom [OS X](lib/osx/set_preferences.sh) / [Ubuntu](lib/ubuntu/set_preferences.sh) preferences
 * Install [vim plugins](vim/vim/plugins)
@@ -47,6 +47,7 @@ The snippet will:
 | [Opera](http://www.opera.com/) | ✔ | ✔ |
 | [Opera Developer](http://www.opera.com/developer) | ✔ | ― |
 | [Opera Next](http://www.opera.com/next) | ✔ | ✔ |
+| [SQLite](http://www.sqlite.org/) | ✔ | ✔ |
 | [Transmission](http://www.transmissionbt.com/) | ✔ | ✔ |
 | vim-gnome | ― | ✔ |
 | [Virtualbox](https://www.virtualbox.org/) | ✔ | ✔ |
