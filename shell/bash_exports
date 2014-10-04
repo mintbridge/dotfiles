@@ -34,3 +34,19 @@ export LESS_TERMCAP_me=$'\E[0m'      # end bold mode
 # Make new shells get the history lines from all previous
 # shells instead of the default "last window closed" history
 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+
+# add some paths to $PATH
+add_dirs_to_path() {
+    declare -a paths=(
+        "$HOME/bin"
+        "$HOME/.composer/vendor/bin"
+    )
+
+    for i in ${!paths[*]}; do
+        if [ -e ${paths[$i]} ]; then
+            export PATH="$PATH:${paths[$i]}"
+        fi
+    done
+}
+
+add_dirs_to_path
