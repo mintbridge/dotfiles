@@ -34,8 +34,9 @@ set_ui_and_ux_settings() {
     gsettings set org.gnome.desktop.background picture-options "stretched"
     #gsettings set org.gnome.desktop.background picture-uri "file:///home/..."
 
-    # Set keyboard languages
-    gsettings set org.gnome.libgnomekbd.keyboard layouts "[ 'us', 'ro' ]"
+    # Set keyboard languages and hide the indicator
+    gsettings set org.gnome.libgnomekbd.keyboard layouts "[ 'gb' ]"
+    gsettings set org.gnome.libgnomekbd.indicator show-flags false
 
     # Set Launcher favorites
     gsettings set com.canonical.Unity.Launcher favorites "[
