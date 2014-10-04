@@ -34,6 +34,9 @@ declare -a NEW_DIRECTORIES=(
 
 declare -a NPM_PACKAGES=(
     "jshint"
+    "bower"
+    "gulp"
+    "grunt-cli"
 )
 
 declare dotfiles_directory="$HOME/.config/dotfiles"
@@ -327,11 +330,11 @@ install_apps() {
 install_npm_packages() {
 
     # Make sure the most recent version of npm is installed
-    npm install -q -g npm &> /dev/null
+    sudo npm install -q -g npm &> /dev/null
     print_result $? "npm [update]"
 
     for i in ${NPM_PACKAGES[@]}; do
-        execute "npm install -g $i" "$i"
+        execute "sudo npm install -g $i" "$i"
     done
 }
 
