@@ -29,6 +29,7 @@ declare -a HOMEBREW_CASKS=(
     "macvim"
     "opera"
     "opera-next"
+    "sqlite3"
     "the-unarchiver"
     "transmission"
     "virtualbox"

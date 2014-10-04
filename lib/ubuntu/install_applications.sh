@@ -27,6 +27,7 @@ declare -a APT_PACKAGES=(
     "npm"
     "opera"
     "opera-next"
+    "sqlite3"
     "transmission"
     "vim-gnome"
     "virtualbox"
