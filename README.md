@@ -1,4 +1,4 @@
-# Cătălin’s dotfiles
+# My dotfiles
 
 ## Setup
 
