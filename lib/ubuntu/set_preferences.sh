@@ -47,7 +47,8 @@ set_ui_and_ux_settings() {
         'firefox.desktop',
         'firefox-trunk.desktop',
         'opera-browser.desktop',
-        'opera-next-browser.desktop'
+        'opera-next-browser.desktop',
+        'terminator.desktop'
     ]"
 
 }

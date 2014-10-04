@@ -28,6 +28,7 @@ declare -a APT_PACKAGES=(
     "opera"
     "opera-next"
     "sqlite3"
+    "terminator"
     "transmission"
     "vim-gnome"
     "virtualbox"
