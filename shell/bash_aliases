@@ -84,6 +84,7 @@ alias map="xargs -n1"
 alias q="exit"
 alias :q="exit"
 alias rm="rm -rf"
+alias clipboard='xclip -sel clip'
 
 # OS / OS distribution specific commands
 
