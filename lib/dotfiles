@@ -26,17 +26,9 @@ declare -a FILES_TO_SYMLINK=(
 )
 
 declare -a NEW_DIRECTORIES=(
-    "$HOME/archive"
-    "$HOME/Downloads/torrents"
-    "$HOME/projects"
-    "$HOME/server"
 )
 
 declare -a NPM_PACKAGES=(
-    "jshint"
-    "bower"
-    "gulp"
-    "grunt-cli"
 )
 
 declare dotfiles_directory="$HOME/.config/dotfiles"
