@@ -3,47 +3,19 @@
 # Homebrew Formulae
 # https://github.com/Homebrew/homebrew
 declare -a HOMEBREW_FORMULAE=(
-    "bash-completion"
-    "git"
-    "imagemagick --with-webp"
-    "caskroom/cask/brew-cask"
-    "node"
-    "vim --override-system-vi"
-    "zopfli"
+   
 )
 
 # Homebrew Casks
 # https://github.com/caskroom/homebrew-cask
 declare -a HOMEBREW_CASKS=(
-    "android-file-transfer"
-    "atom"
-    "chromium"
-    "dropbox"
-    "flash"
-    "firefox"
-    "gimp-lisanet"
-    "google-chrome"
-    "imageoptim"
-    "licecap"
-    "libreoffice"
-    "macvim"
-    "opera"
-    "opera-next"
-    "sqlite3"
-    "the-unarchiver"
-    "transmission"
-    "virtualbox"
-    "vlc"
+
 )
 
 # Homebrew Alternate Casks
 # https://github.com/caskroom/homebrew-versions
 declare -a HOMEBREW_ALTERNATE_CASKS=(
-    "google-chrome-canary"
-    "firefox-nightly"
-    "opera-developer"
-    "webkit-nightly"
-    "sublime-text3"
+
 )
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
